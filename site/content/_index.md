@@ -12,7 +12,7 @@ intro:
   text: >-
     Kroon en brugwerken, protheses, kindertandheelkunde, bleaching, extracties,
     en nog veel meer!
-products:
+behandelingen:
   - image: /img/lesly-juarez-1ahgngkuhr0-unsplash.jpg
     text: >-
       Wij bieden de beste bleaching in de markt aan met de nieuwste en veilige
