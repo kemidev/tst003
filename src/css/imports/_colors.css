@@ -40,6 +40,12 @@
   background-color: var(--primary);
 }
 
+.bg-primary-trans {
+  background-color: var(--primarytrans);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .bg-highlight {
   background-color: var(--highlight);
 }
