@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron-openingsuren" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "openingsuren" .Params.openingsuren) }}
 
 {{ partial "short-text" .Params.blurb}}
 
 {{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "text-and-image" (dict "heading" .Params.team.heading "text" .Params.team.text "buttonText" "Onze Specialisten" "buttonLink" "/team") }}
 
 {{ partial "blog" . }}
 

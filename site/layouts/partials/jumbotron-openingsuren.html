@@ -1,0 +1,25 @@
+<div class="pv5 pv5-l bg-center cover w-100" style="background-image: url('{{.imageUrl}}')">
+  <div class="mw7 center ph5 w-100 dt dt--fixed">
+      <div class="fl w-60">
+        <div class="mw7 relative bg-fix-primary mb3">
+          <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary-trans">
+            {{.title}}
+          </h1>
+        </div>
+        <div class="mw7 relative bg-fix-primary">
+          {{ if .subtitle }}
+          <p class="b f4 di lh-title mb3 white mw6 bg-primary-trans">
+            {{.subtitle}}
+          </p>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="db mb3 fl w-40 bg-fix-primary bl measure-narrow bg-grey-openingsuren white">
+        <p class="">
+          OPENINGSUREN:
+          <span>{{.openingsuren}}</span>
+        </p>
+      </div>
+  </div>
+</div>

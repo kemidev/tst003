@@ -62,6 +62,10 @@
   background-color: var(--grey-1);
 }
 
+.bg-grey-openingsuren {
+  background-color: var(--grey-5);
+}
+
 .bg-grey-2 {
   background-color: var(--grey-2);
 }

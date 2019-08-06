@@ -7,13 +7,13 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../c
 import HomePreview from "./cms-preview-templates/home";
 import PostPreview from "./cms-preview-templates/post";
 import BehandelingPreview from "./cms-preview-templates/behandelingen";
-import ValuesPreview from "./cms-preview-templates/values";
+import TeamPreview from "./cms-preview-templates/team";
 import ContactPreview from "./cms-preview-templates/contact";
 
 CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("behandelingen", BehandelingPreview);
-CMS.registerPreviewTemplate("values", ValuesPreview);
+CMS.registerPreviewTemplate("team", TeamPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
 CMS.init();
